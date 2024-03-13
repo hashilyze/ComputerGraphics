@@ -31,7 +31,8 @@ void display() {
 	for (int i = 1; i <= 4; ++i) {
 		if (i % 2) {
 			glVertex2f(.0f + length * i, .0f);
-		} else {
+		}
+		else {
 			glVertex2f(.0f + length * (0.5 + i), .0f + length);
 		}
 	}
@@ -45,7 +46,7 @@ int main(int argc, char** argv) {
 	glutInitWindowSize(1200, 600);
 	glutInitWindowPosition(200, 100);
 
-	glutCreateWindow("OpenGL");
+	glutCreateWindow("OpenGL-Triangle(Strip)");
 
 	glutDisplayFunc(display);
 	glutMainLoop();
