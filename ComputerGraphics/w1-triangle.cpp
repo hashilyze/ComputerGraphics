@@ -1,14 +1,15 @@
 #include "gl/glut.h"
-#include <cmath>
-
 
 void display() {
 	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	glColor3f(.0f, .0f, 1.0f);
-	glBegin(GL_LINE_LOOP);
+	glColor3f(.0f, 1.0f, .0f);
 
+	glBegin(GL_POLYGON);
+	glVertex2f(-0.5f, -0.5f);
+	glVertex2f(.0f, 0.5);
+	glVertex2f(0.5f, -0.5f);
 	glEnd();
 
 	glFinish();
@@ -16,11 +17,7 @@ void display() {
 
 int main(int argc, char** argv) {
 	glutInit(&argc, argv);
-	glutInitWindowSize(600, 600);
-	glutInitWindowPosition(500, 100);
-
-	glutCreateWindow("OpenGL");
-
+	glutCreateWindow("OpenGL-Triangle");
 	glutDisplayFunc(display);
 	glutMainLoop();
 
