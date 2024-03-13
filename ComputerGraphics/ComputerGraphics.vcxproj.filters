@@ -21,7 +21,7 @@
     <ClCompile Include="w1-triangle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="w2-lab.cpp">
+    <ClCompile Include="w2-intersection.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="w2-line.cpp">
