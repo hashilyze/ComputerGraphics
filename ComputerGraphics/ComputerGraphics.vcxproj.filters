@@ -30,5 +30,8 @@
     <ClCompile Include="w2-triangle-loop.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="w3-drawing.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
