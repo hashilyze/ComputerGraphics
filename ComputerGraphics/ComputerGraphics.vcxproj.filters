@@ -33,5 +33,13 @@
     <ClCompile Include="w3-drawing.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="w4-bezierCurve.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GCBezierCurve.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

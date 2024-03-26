@@ -148,7 +148,13 @@
     <ClCompile Include="w2-triangle-loop.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="w3-drawing.cpp" />
+    <ClCompile Include="w3-drawing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="w4-bezierCurve.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GCBezierCurve.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
