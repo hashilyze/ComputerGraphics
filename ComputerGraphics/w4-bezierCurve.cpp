@@ -217,12 +217,12 @@ int main(int argc, char** argv)
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(100, 100);
 
-	ctrlPts.push_back({ -2, -1 });
-	ctrlPts.push_back({ 0, 2 });
-	ctrlPts.push_back({ 2, -1 });
-	ctrlPts.push_back({ 4, 2 });
+	ctrlPts.push_back({ -2, 1 });
+	ctrlPts.push_back({ 0, -2 });
+	ctrlPts.push_back({ 2, 2 });
+	ctrlPts.push_back({ 4, -1 });
 
-	glutCreateWindow("OpenGL");
+	glutCreateWindow("OpenGL-BezierCurve");
 	glutDisplayFunc(display);
 	glutKeyboardFunc(keyboard);
 	glutSpecialFunc(special);
