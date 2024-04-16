@@ -154,7 +154,10 @@
     <ClCompile Include="w4-bezierCurve.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="w5-bezierIntersection.cpp" />
+    <ClCompile Include="w5-bezierIntersection.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="w7-soloar-system.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GCAABBBVH.h" />
